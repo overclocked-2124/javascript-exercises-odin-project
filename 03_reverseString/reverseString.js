@@ -1,4 +1,11 @@
-const reverseString = function() {
+const reverseString = function(inputString) {
+    reversed="";
+    length=inputString.length;
+    while(length--){
+        reversed += inputString[length]
+    }
+
+    return(reversed)
 
 };
 
